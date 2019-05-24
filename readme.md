@@ -18,5 +18,8 @@ To make use of this file you will need follow the following steps:
 * Extract QMK Firmware to a location on your hard drive
 * Copy this folder into `qmk_firmware/keyboards/dz60/keymaps/`
 * You are now ready to compile or use your keymap with the source
+```shell
+> make dz60:jis2us-dz60-keymap:avrdude
+```
 
 More information can be found in the QMK docs: <https://docs.qmk.fm>
